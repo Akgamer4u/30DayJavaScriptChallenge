@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 100% 0;
+        visibility: visible;
+        display: block;
+      }
+      #divs {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">hello world</h1>
+    <p id="para">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, et.
+    </p>
+    <button id="btn">click</button>
+
+    <img
+      id="img"
+      src="https://images.pexels.com/photos/26997896/pexels-photo-26997896/free-photo-of-woman-in-t-shirt-and-skirt-walking-by-field-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+      alt="pic"
+    />
+
+    <br />
+    <input id="text" type="text" />
+
+    <form action="/" id="form">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        class="input"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+      />
+      <br />
+      <label for="mobile">Mobile</label>
+      <input
+        type="number"
+        class="input"
+        name="mobile"
+        id="mobile"
+        placeholder="Enter your mobile"
+      />
+      <br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="input"
+        name="password"
+        id="password"
+        placeholder="Enter your password"
+      />
+      <button>Submit</button>
+    </form>
+    <br>
+    <label for="select">Choose One:</label>
+    <select name="select" id="select">
+      <option value="">--select--</option>
+      <option value="G63 AMG">G63 AMG</option>
+      <option value="BMW m340i">BMW m340i</option>
+      <option value="Defender">Defender</option>
+    </select>
+
+    <h2 id="option">Your selected option:</h2>
+    <br>
+    <ul id="list">
+      <li >csc</li>
+      <li >cscsfcfs</li>
+      <li >fsfff</li>
+      <li >wfsf</li>
+    </ul>
+     <div id="parent">
+        <button id="btn">
+          click
+        </button>
+     </div>
+    <script src="day10.js"></script>
+  </body>
+</html>
